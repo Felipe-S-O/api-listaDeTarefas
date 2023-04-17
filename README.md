@@ -1,6 +1,6 @@
 <h1 align="center">
   <p align="center">Api Lista de Tarefas</p>
-  <a href="https://inottec.com.br/inottec-cdv/felipe"><img src="https://user-images.githubusercontent.com/63815922/232280305-997dbecf-cf4d-499f-a2c6-a6f5e4448c49.png?text=Lista de Tarefa#vitrinedev" alt="inottec"></a>
+  <a href="https://inottec.com.br/felipe/"><img src="https://user-images.githubusercontent.com/63815922/232280305-997dbecf-cf4d-499f-a2c6-a6f5e4448c49.png?text=Lista de Tarefa#vitrinedev" alt="inottec"></a>
 </h1>
 
 <p align="center">
@@ -71,7 +71,7 @@ Api lista de tarefa é uma aplicação web desenvolvida em PHP, com essa aplica�
 
 Você pode [acessar o código fonte do projeto](https://github.com/Felipe-S-O/api-listaDeTarefas) ou [baixá-lo](https://github.com/Felipe-S-O/api-listaDeTarefas/archive/refs/heads/main.zip).
 
-Pagina do projeto [aqui](https://inottec.com.br/inottec-cdv/)
+Pagina do projeto [aqui](https://api-lista-tarefa.herokuapp.com/api/tarefa)
 
 ## Abrir e rodar o projeto
 
