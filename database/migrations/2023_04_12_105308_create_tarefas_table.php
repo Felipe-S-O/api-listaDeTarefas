@@ -13,9 +13,8 @@ return new class extends Migration
     {
         Schema::create('tarefas', function (Blueprint $table) {
             $table->id();
-            $table->string('titulo', 28);
-            $table->string('descricao', 95);
-            $table->timestamps();
+            $table->string('titulo', 128);
+            $table->string('descricao', 800);
         });
     }
 

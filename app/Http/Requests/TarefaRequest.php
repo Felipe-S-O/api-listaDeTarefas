@@ -22,7 +22,8 @@ class TarefaRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'titulo' => ['required', 'min:2'],
+            'titulo' => ['required', 'min:1', 'max:28'],
+            'descricao' => ['required', 'min:1', 'max:95'],
         ];
     }
 }

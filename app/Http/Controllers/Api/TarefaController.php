@@ -15,9 +15,14 @@ class TarefaController extends Controller
         return Tarefa::all();
     }
    
-    public function show(Tarefa $tarefa)
+    public function show(int $tarefa)
     {
-        return $tarefa;
+        $tarefasModel = Tarefa::find($tarefa);
+        if($tarefasModel === null){
+            return response()->json(['message' => 'Tarefa não encontrada'], 404);
+        }
+
+        return $tarefasModel;
     }
 
     public function store(TarefaRequest $request)
