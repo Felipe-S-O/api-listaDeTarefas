@@ -77,10 +77,44 @@ Pagina do projeto [aqui](https://api-lista-tarefa.herokuapp.com/api/tarefa)
 
 - Requisitos para rodar Api ter PHP, Composer e SQLite configurado
 - Extraia o arquivo compactado baixado
+- Execute o comando abaixo para instalar as dependências
+```bash
+composer intall
+```
 - Para iniciar a aplicação executa o comando abaixo
 ```bash
-# wit
 php artisan serve --host=0.0.0.0 --port=8080
+```
+- Comado de para consulta api
+get
+```bash
+https://enderecoApi/api/tarefa
+```
+put
+```bash
+https://enderecoApi/api/tarefa/1
+```
+```bash
+#body
+{
+ "titulo": "titulo",
+ "descricao": "descrição"
+}
+```
+del
+```bash
+https://enderecoApi/api/tarefa/1
+```
+post
+```bash
+https://enderecoApi/api/tarefa
+```
+```bash
+#body
+{
+ "titulo": "titulo",
+ "descricao": "descrição"
+}
 ```
 
 ## Desenvolvedor
