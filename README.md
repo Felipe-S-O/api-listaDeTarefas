@@ -88,11 +88,11 @@ php artisan serve --host=0.0.0.0 --port=8080
 - Comado de para consulta api
 get
 ```bash
-https://enderecoApi/api/tarefa
+enderecoApi/api/tarefa
 ```
 put
 ```bash
-https://enderecoApi/api/tarefa/1
+enderecoApi/api/tarefa/1
 ```
 ```bash
 #body
@@ -103,11 +103,11 @@ https://enderecoApi/api/tarefa/1
 ```
 del
 ```bash
-https://enderecoApi/api/tarefa/1
+enderecoApi/api/tarefa/1
 ```
 post
 ```bash
-https://enderecoApi/api/tarefa
+enderecoApi/api/tarefa
 ```
 ```bash
 #body
