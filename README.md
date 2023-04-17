@@ -92,7 +92,7 @@ enderecoApi/api/tarefa
 ```
 put
 ```bash
-enderecoApi/api/tarefa/1
+enderecoApi/api/tarefa/id
 ```
 ```bash
 #body
@@ -103,7 +103,7 @@ enderecoApi/api/tarefa/1
 ```
 del
 ```bash
-enderecoApi/api/tarefa/1
+enderecoApi/api/tarefa/id
 ```
 post
 ```bash
